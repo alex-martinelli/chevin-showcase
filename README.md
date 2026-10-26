@@ -66,6 +66,11 @@ flowchart LR
 
 Built by **[Alex Martinelli](https://github.com/alex-martinelli)** and **[Giovanni](https://github.com/Giovanni188)**.
 
+| | Role |
+| --- | --- |
+| **Alex Martinelli** | **AI and image analysis.** Designed and built the whole analysis pipeline: quality filters with OpenCV, face-aware blur thresholds with ML Kit, automatic orientation, NIMA aesthetic model conversion and integration in TensorFlow Lite, scoring, the on-device personal taste model, and duplicate grouping with embeddings, histograms and ORB matching. |
+| **Giovanni** | **App architecture and UI.** Designed the app structure and logic (MVVM, navigation, data layer) and the user interface in Jetpack Compose. |
+
 ## Credits
 
 NIMA weights from [idealo/image-quality-assessment](https://github.com/idealo/image-quality-assessment) (Apache 2.0) · Font: Plus Jakarta Sans (SIL OFL 1.1) · Sound effects from Pixabay.
